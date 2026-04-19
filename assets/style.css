@@ -482,6 +482,10 @@ footer{
     .game-section__item{
         min-width: auto;
     }
+    .game-section__item img{
+        max-width: unset;
+        width: 100%;
+    }
     .game-section__overlay{
         opacity: 0;
         height: 100%;
