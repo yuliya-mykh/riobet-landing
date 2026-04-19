@@ -479,6 +479,9 @@ footer{
         grid-template-columns: repeat(4, 1fr);
         gap: 5px;
     }
+    .game-section__item{
+        min-width: auto;
+    }
     .game-section__overlay{
         opacity: 0;
         height: 100%;
@@ -486,6 +489,8 @@ footer{
     }
     .game-section__link{
         max-width: 200px;
+        width: auto;
+        padding: 10px 30px;
 
     }
     .how-to-start-section__steps{
