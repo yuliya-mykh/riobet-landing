@@ -384,6 +384,10 @@ main{
     margin-bottom: 16px;
 
 }
+.content-section p a{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
 .cta-section__wrapper{
     position: relative;
     overflow: hidden;
