@@ -6,7 +6,7 @@ if (promo) {
         navigator.clipboard.writeText(promo.textContent);
 
         promo.classList.add('copied');
-        promo.textContent = 'Copied!';
+        promo.textContent = 'Скопировано!';
 
         setTimeout(() => {
             promo.textContent = 'RIO500';
