@@ -464,6 +464,11 @@ footer{
     .btn{
         padding: 10px;
         font-size: 0.875rem;
+        transition: 0.3s ease;
+        transform: scale(1);
+    }
+    .btn:hover{
+        transform: scale(1.05);
     }
     .hero-section{
         padding: 20px;
